@@ -1,0 +1,8 @@
+# The Lean CLI drives the real LEAN engine locally (no API token for local runs).
+# A running Docker daemon is also required — install Docker Desktop or the
+# docker engine separately.
+lean>=1.0.0
+
+# Needed only for the LLM benchmark harness (run_single_shot.py / run_agentic.py).
+# The plain `check.py` checker does not import this.
+openai>=1.0.0
