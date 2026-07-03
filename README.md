@@ -99,7 +99,7 @@ judge key is given) the judge agrees the code matches the task.
 python run_single_shot.py \
     --api-key  $OPENAI_API_KEY \
     --model    gpt-4o-mini \
-    --tasks    data/benchmark_tasks.json \
+    --tasks    data/benchmark_tasks_multiframe.json \
     --workspace ~/lean-workspace \
     --output   results/
 
