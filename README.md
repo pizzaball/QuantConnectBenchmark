@@ -10,7 +10,7 @@ Faithful QuantConnect strategy checking using the **LEAN engine**, run
 |-------|-------|-----|
 | 1. `compiled`   | valid Python syntax | `ast.parse()` |
 | 2. `validated`  | `QCAlgorithm` subclass + `Initialize()` | regex |
-| 3. `backtested` | runs in the real engine | `lean backtest` (Docker, no token) |
+| 3. `backtested` | runs in the real engine | `lean backtest` (Docker) |
 | 4. `traded`     | LEAN reports ≥ 1 order | parsed from LEAN's result JSON |
 
 ## Setup
